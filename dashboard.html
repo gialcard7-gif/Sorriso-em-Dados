@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Protótipo estático do painel de captação e relacionamento.">
+        <title>Painel - Sorriso em Dados</title>
+        <link rel="icon" href="imagens/logo.svg" type="image/svg+xml">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <!-- Cabeçalho padrão (igual em todas as páginas) -->
+        <header class="cabecalho">
+            <div class="container cabecalho__interno">
+                <a class="marca" href="index.html"><img src="imagens/logo.svg" alt="" width="40" height="40">Sorriso em Dados</a>
+                <nav aria-label="Menu principal">
+                    <ul class="menu__lista">
+                        <li><a class="menu__link" href="index.html">Início</a></li>
+                        <li><a class="menu__link" href="dashboard.html" aria-current="page">Painel</a></li>
+                        <li><a class="menu__link" href="integracao.html">Como funciona</a></li>
+                        <li><a class="menu__link" href="sobre.html">Sobre</a></li>
+                        <li><a class="menu__link" href="integrantes.html">Integrantes</a></li>
+                        <li><a class="menu__link" href="faq.html">FAQ</a></li>
+                        <li><a class="menu__link" href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section class="secao" aria-labelledby="t-painel">
+                <div class="container">
+                    <h1 id="t-painel">Painel de captação e relacionamento</h1>
+                    <p class="aviso">Protótipo estático com dados fictícios. Nesta sprint nada é calculado: os valores são escritos no HTML.</p>
+                </div>
+            </section>
+            <!-- Indicadores -->
+            <section class="secao secao--menta" aria-labelledby="t-ind">
+                <div class="container">
+                    <h2 id="t-ind">Indicadores do mês</h2>
+                    <div class="grade grade--4">
+                        <article class="card"><p>Doadores ativos</p><span class="destaque">1.248</span><p>38 novos no mês</p></article>
+                        <article class="card"><p>Doações no mês</p><span class="destaque">R$ 38.400</span><p>6% acima do mês anterior</p></article>
+                        <article class="card"><p>Empresas parceiras</p><span class="destaque">64</span><p>3 novas no mês</p></article>
+                        <article class="card"><p>Contatos em aberto</p><span class="destaque">210</span><p>42 sem retorno há 15 dias</p></article>
+                    </div>
+                </div>
+            </section>
+            <!-- Gráfico e funil -->
+            <section class="secao" aria-labelledby="t-graf">
+                <div class="container">
+                    <h2 id="t-graf">Evolução e funil de captação</h2>
+                    <div class="grade grade--2">
+                        <article class="card">
+                            <h3>Doações por mês (mil reais)</h3>
+                            <div class="barras">
+                                <div class="barras__item pct-80"></div>
+                                <div class="barras__item pct-75"></div>
+                                <div class="barras__item pct-90"></div>
+                                <div class="barras__item pct-85"></div>
+                                <div class="barras__item pct-90"></div>
+                                <div class="barras__item pct-95"></div>
+                            </div>
+                            <div class="rotulos"><span>Abr</span><span>Mai</span><span>Jun</span><span>Jul</span><span>Ago</span><span>Set</span></div>
+                        </article>
+                        <article class="card">
+                            <h3>Funil de captação</h3>
+                            <div class="funil__linha"><span>Contatos</span><div class="funil__barra pct-100"></div><span>1.000</span></div>
+                            <div class="funil__linha"><span>Interessados</span><div class="funil__barra pct-60"></div><span>620</span></div>
+                            <div class="funil__linha"><span>Em conversa</span><div class="funil__barra pct-35"></div><span>350</span></div>
+                            <div class="funil__linha"><span>Doadores</span><div class="funil__barra pct-20"></div><span>180</span></div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+            <!-- Tabela e prioridades -->
+            <section class="secao secao--menta" aria-labelledby="t-tab">
+                <div class="container">
+                    <h2 id="t-tab">Últimas doações e prioridades</h2>
+                    <div class="grade grade--2">
+                        <article class="card">
+                            <h3>Últimas doações</h3>
+                            <table class="tabela">
+                                <caption class="sr-somente">Últimas doações recebidas</caption>
+                                <thead><tr><th scope="col">Apoiador</th><th scope="col">Valor</th><th scope="col">Situação</th></tr></thead>
+                                <tbody>
+                                    <tr><td>Mariana Souza</td><td>R$ 150,00</td><td><span class="selo">Confirmada</span></td></tr>
+                                    <tr><td>Padaria Boa Massa Ltda.</td><td>R$ 2.000,00</td><td><span class="selo">Confirmada</span></td></tr>
+                                    <tr><td>Rafael Lima</td><td>R$ 80,00</td><td><span class="selo selo--pendente">Pendente</span></td></tr>
+                                    <tr><td>Clínica Vida Plena</td><td>R$ 1.200,00</td><td><span class="selo">Confirmada</span></td></tr>
+                                </tbody>
+                            </table>
+                        </article>
+                        <article class="card">
+                            <h3>Prioridades sugeridas (exemplo para sprints futuras)</h3>
+                            <ul>
+                                <li>Empresa com proposta enviada há 10 dias: retomar o contato hoje.</li>
+                                <li>Doador recorrente sem doar há 60 dias: enviar agradecimento e convite.</li>
+                                <li>Novo interessado vindo do formulário: responder em até 2 dias.</li>
+                            </ul>
+                        </article>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- Rodapé padrão (igual em todas as páginas) -->
+        <footer class="rodape">
+            <div class="container">
+                <p><strong>Sorriso em Dados</strong></p>
+                <ul class="rodape__lista">
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="dashboard.html">Painel</a></li>
+                    <li><a href="integracao.html">Como funciona</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="integrantes.html">Integrantes</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+                <p>Os dados exibidos no painel são fictícios e servem apenas para demonstração.</p>
+            </div>
+        </footer>
+    </body>
+</html>

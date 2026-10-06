@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Como os dados chegam do formulário até o painel.">
+        <title>Como funciona - Sorriso em Dados</title>
+        <link rel="icon" href="imagens/logo.svg" type="image/svg+xml">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <!-- Cabeçalho padrão (igual em todas as páginas) -->
+        <header class="cabecalho">
+            <div class="container cabecalho__interno">
+                <a class="marca" href="index.html"><img src="imagens/logo.svg" alt="" width="40" height="40">Sorriso em Dados</a>
+                <nav aria-label="Menu principal">
+                    <ul class="menu__lista">
+                        <li><a class="menu__link" href="index.html">Início</a></li>
+                        <li><a class="menu__link" href="dashboard.html">Painel</a></li>
+                        <li><a class="menu__link" href="integracao.html" aria-current="page">Como funciona</a></li>
+                        <li><a class="menu__link" href="sobre.html">Sobre</a></li>
+                        <li><a class="menu__link" href="integrantes.html">Integrantes</a></li>
+                        <li><a class="menu__link" href="faq.html">FAQ</a></li>
+                        <li><a class="menu__link" href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section class="secao" aria-labelledby="t-int">
+                <div class="container">
+                    <h1 id="t-int">Do formulário ao painel: como os dados chegam à equipe</h1>
+                    <p>Em uma organização com voluntários, doadores, empresas e programas em todo o país, as informações costumam ficar espalhadas em planilhas, formulários e canais diferentes. Sem uma visão única, fica difícil saber quem já foi contatado, quem doou e quem merece atenção agora.</p>
+                </div>
+            </section>
+            <section class="secao secao--menta" aria-labelledby="t-fluxo">
+                <div class="container">
+                    <h2 id="t-fluxo">Como os dados chegam ao painel</h2>
+                    <ol class="fluxo">
+                        <li class="fluxo__etapa"><h3>Entrada</h3><p>Formulários, canais e serviços externos enviam os dados de apoiadores.</p></li>
+                        <li class="fluxo__etapa"><h3>Banco centralizado</h3><p>Tudo fica em um só cadastro, com histórico de contatos e doações.</p></li>
+                        <li class="fluxo__etapa"><h3>Regras e automações</h3><p>Mensagens e lembretes seguem o funil de captação.</p></li>
+                        <li class="fluxo__etapa"><h3>Painel</h3><p>A equipe vê indicadores e decide o próximo passo.</p></li>
+                    </ol>
+                </div>
+            </section>
+            <section class="secao " aria-labelledby="t-muda">
+                <div class="container">
+                    <h2 id="t-muda">O que muda para a equipe</h2>
+                    <div class="grade grade--2">
+                        <article class="card">
+                            <img class="card__icone" src="imagens/icone-banco.svg" alt="">
+                            <h3>Antes</h3>
+                            <p>Dados em vários lugares, retrabalho e contatos esquecidos.</p>
+                        </article><article class="card">
+                            <img class="card__icone" src="imagens/icone-grafico.svg" alt="">
+                            <h3>Depois</h3>
+                            <p>Uma visão única, com prioridades claras e menos trabalho manual.</p>
+                        </article>
+                    </div>
+                    <p><a class="btn btn--primario" href="dashboard.html">Ver o protótipo do painel</a></p>
+                </div>
+            </section>
+        </main>
+        <!-- Rodapé padrão (igual em todas as páginas) -->
+        <footer class="rodape">
+            <div class="container">
+                <p><strong>Sorriso em Dados</strong></p>
+                <ul class="rodape__lista">
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="dashboard.html">Painel</a></li>
+                    <li><a href="integracao.html">Como funciona</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="integrantes.html">Integrantes</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+                <p>Os dados exibidos no painel são fictícios e servem apenas para demonstração.</p>
+            </div>
+        </footer>
+    </body>
+</html>

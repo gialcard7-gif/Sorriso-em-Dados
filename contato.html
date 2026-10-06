@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Fale com a equipe do projeto.">
+        <title>Contato - Sorriso em Dados</title>
+        <link rel="icon" href="imagens/logo.svg" type="image/svg+xml">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <!-- Cabeçalho padrão (igual em todas as páginas) -->
+        <header class="cabecalho">
+            <div class="container cabecalho__interno">
+                <a class="marca" href="index.html"><img src="imagens/logo.svg" alt="" width="40" height="40">Sorriso em Dados</a>
+                <nav aria-label="Menu principal">
+                    <ul class="menu__lista">
+                        <li><a class="menu__link" href="index.html">Início</a></li>
+                        <li><a class="menu__link" href="dashboard.html">Painel</a></li>
+                        <li><a class="menu__link" href="integracao.html">Como funciona</a></li>
+                        <li><a class="menu__link" href="sobre.html">Sobre</a></li>
+                        <li><a class="menu__link" href="integrantes.html">Integrantes</a></li>
+                        <li><a class="menu__link" href="faq.html">FAQ</a></li>
+                        <li><a class="menu__link" href="contato.html" aria-current="page">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section class="secao" aria-labelledby="t-ct">
+                <div class="container">
+                    <h1 id="t-ct">Contato</h1>
+                    <p>Envie sua dúvida ou sugestão. Nesta sprint o formulário não envia mensagens de verdade.</p>
+                    <form class="formulario" action="#" method="post">
+                        <div>
+                            <label for="nome">Nome</label>
+                            <input type="text" id="nome" name="nome" placeholder="Seu nome completo" autocomplete="name" required>
+                        </div>
+                        <div>
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email" placeholder="voce@exemplo.com" autocomplete="email" required>
+                        </div>
+                        <div>
+                            <label for="assunto">Assunto</label>
+                            <select id="assunto" name="assunto">
+                                <option>Dúvida sobre o projeto</option>
+                                <option>Quero ser parceiro</option>
+                                <option>Sugestão</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="mensagem">Mensagem</label>
+                            <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva sua mensagem" required></textarea>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="lgpd" name="lgpd" required>
+                            <label for="lgpd">Concordo com o uso dos meus dados para responder a esta mensagem (LGPD).</label>
+                        </div>
+                        <div>
+                            <button class="btn btn--primario" type="submit">Enviar mensagem</button>
+                        </div>
+                    </form>
+                    <p>Também é possível falar com a equipe pelo repositório do projeto no GitHub (link no README).</p>
+                </div>
+            </section>
+        </main>
+        <!-- Rodapé padrão (igual em todas as páginas) -->
+        <footer class="rodape">
+            <div class="container">
+                <p><strong>Sorriso em Dados</strong></p>
+                <ul class="rodape__lista">
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="dashboard.html">Painel</a></li>
+                    <li><a href="integracao.html">Como funciona</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="integrantes.html">Integrantes</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+                <p>Os dados exibidos no painel são fictícios e servem apenas para demonstração.</p>
+            </div>
+        </footer>
+    </body>
+</html>

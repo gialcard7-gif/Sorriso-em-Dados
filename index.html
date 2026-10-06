@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Plataforma que centraliza doadores, parceiros e indicadores da Turma do Bem.">
+        <title>Início - Sorriso em Dados</title>
+        <link rel="icon" href="imagens/logo.svg" type="image/svg+xml">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <!-- Cabeçalho padrão (igual em todas as páginas) -->
+        <header class="cabecalho">
+            <div class="container cabecalho__interno">
+                <a class="marca" href="index.html"><img src="imagens/logo.svg" alt="" width="40" height="40">Sorriso em Dados</a>
+                <nav aria-label="Menu principal">
+                    <ul class="menu__lista">
+                        <li><a class="menu__link" href="index.html" aria-current="page">Início</a></li>
+                        <li><a class="menu__link" href="dashboard.html">Painel</a></li>
+                        <li><a class="menu__link" href="integracao.html">Como funciona</a></li>
+                        <li><a class="menu__link" href="sobre.html">Sobre</a></li>
+                        <li><a class="menu__link" href="integrantes.html">Integrantes</a></li>
+                        <li><a class="menu__link" href="faq.html">FAQ</a></li>
+                        <li><a class="menu__link" href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <!-- Hero: apresentação do projeto -->
+            <section class="hero" aria-labelledby="t-hero">
+                <div class="container hero__conteudo">
+                    <div>
+                        <h1 id="t-hero">Doadores, parceiros e indicadores da Turma do Bem em um só lugar</h1>
+                        <p class="hero__lead">O Sorriso em Dados é a proposta de uma plataforma que reúne cadastros, histórico de contatos e doações e transforma esses dados em um painel para a equipe visualizar com clareza.</p>
+                        <div class="hero__acoes">
+                            <a class="btn btn--primario" href="dashboard.html">Ver o painel</a>
+                            <a class="btn btn--secundario" href="sobre.html">Conhecer o projeto</a>
+                        </div>
+                    </div>
+                    <div class="previa" role="img" aria-label="Prévia ilustrativa do painel: gráfico de barras com doações por mês">
+                        <p class="previa__titulo">Doações por mês</p>
+                        <div class="barras">
+                            <div class="barras__item pct-80"></div>
+                            <div class="barras__item pct-75"></div>
+                            <div class="barras__item pct-90"></div>
+                            <div class="barras__item pct-85"></div>
+                            <div class="barras__item pct-90"></div>
+                            <div class="barras__item pct-95"></div>
+                        </div>
+                        <div class="rotulos"><span>Abr</span><span>Mai</span><span>Jun</span><span>Jul</span><span>Ago</span><span>Set</span></div>
+                    </div>
+                </div>
+            </section>
+            <!-- O desafio -->
+            <section class="secao " aria-labelledby="t-desafio">
+                <div class="container">
+                    <h2 id="t-desafio">Por que a saúde bucal precisa de atenção</h2>
+                    <div class="grade grade--3">
+                        <article class="card"><span class="destaque">11%</span><p>dos jovens de 12 anos nunca foram ao dentista.</p></article>
+                        <article class="card"><span class="destaque">14 milhões</span><p>de brasileiros perderam todos os dentes.</p></article>
+                        <article class="card"><span class="destaque">34 milhões</span><p>de pessoas com mais de 18 anos perderam 13 dentes ou mais.</p></article>
+                    </div>
+                    <p>Fonte: Pesquisa Nacional de Saúde (IBGE), 2023.</p>
+                </div>
+            </section>
+            <!-- O que a plataforma faz -->
+            <section class="secao secao--menta" aria-labelledby="t-faz">
+                <div class="container">
+                    <h2 id="t-faz">O que a plataforma faz</h2>
+                    <div class="grade grade--3">
+                        <article class="card">
+                            <img class="card__icone" src="imagens/icone-cadastro.svg" alt="">
+                            <h3>Centraliza informações</h3>
+                            <p>Pessoas físicas, empresas e parceiros em um único cadastro.</p>
+                        </article><article class="card">
+                            <img class="card__icone" src="imagens/icone-doacao.svg" alt="">
+                            <h3>Acompanha doações</h3>
+                            <p>Histórico de contatos, interações e doações de cada apoiador.</p>
+                        </article><article class="card">
+                            <img class="card__icone" src="imagens/icone-grafico.svg" alt="">
+                            <h3>Mostra indicadores</h3>
+                            <p>Um painel com números claros para apoiar as tomadas de decisões.</p>
+                        </article>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- Rodapé padrão (igual em todas as páginas) -->
+        <footer class="rodape">
+            <div class="container">
+                <p><strong>Sorriso em Dados</strong></p>
+                <ul class="rodape__lista">
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="dashboard.html">Painel</a></li>
+                    <li><a href="integracao.html">Como funciona</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="integrantes.html">Integrantes</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+                <p>Os dados exibidos no painel são fictícios e servem apenas para demonstração.</p>
+            </div>
+        </footer>
+    </body>
+</html>
