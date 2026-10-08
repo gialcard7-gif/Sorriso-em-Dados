@@ -21,10 +21,10 @@ https://github.com/gialcard7-gif/Sorriso-em-Dados
 | Nome completo | RM | Turma | GitHub | LinkedIn |
 |---|---|---|---|---|
 | Beatriz Fernandes Silva | RM576409 | 1TDSPS | [@olabeatrizfsilva](https://github.com/olabeatrizfsilva) | [LinkedIn](https://www.linkedin.com/in/beatrizsilva-salesb2b) |
-| Diane Vinha Arantes | RM575041 | 1TDSPS | [@dianevinhaarantes](https://github.com/dianevinhaarantes) | [LinkedIn] (https://www.linkedin.com/in/diane-arantes)
-| Giovanna Alcard Souza Silva | RM576375 | 1TDSPS | [@gialcard7](https://github.com/gialcard7-gif) | [LinkedIn]     (https://www.linkedin.com/in/giovanna-alcard)
-| Gleycianne Arruda de Freitas Silva | RM575040 | 1TDSPS | [@gleycifreitas](https://github.com/gleycifreitas) | [LinkedIn] (https://www.linkedin.com/in/gleyci)
-| Isabella Fernandes dos Passos Prado | RM574951 | 1TDSPS | [@isabellaprado25](https://github.com/isabellaprado25) | [LinkedIn] (https://www.linkedin.com/in/isabellaprado20)
+| Diane Vinha Arantes | RM575041 | 1TDSPS | [@dianevinhaarantes](https://github.com/dianevinhaarantes) | [LinkedIn](https://www.linkedin.com/in/diane-arantes)
+| Giovanna Alcard Souza Silva | RM576375 | 1TDSPS | [@gialcard7-gif](https://github.com/gialcard7-gif) | [LinkedIn](https://www.linkedin.com/in/giovanna-alcard)
+| Gleycianne Arruda de Freitas Silva | RM575040 | 1TDSPS | [@gleycifreitas](https://github.com/gleycifreitas) | [LinkedIn](https://www.linkedin.com/in/gleyci)
+| Isabella Fernandes dos Passos Prado | RM574951 | 1TDSPS | [@isabellaprado25](https://github.com/isabellaprado25) | [LinkedIn](https://www.linkedin.com/in/isabellaprado20)
 
 ## Integrantes
 | | | | | |
