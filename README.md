@@ -61,4 +61,4 @@ Dúvidas, sugestões ou suporte sobre o projeto:
 - Perfis de cada autora: veja a tabela de [Autores](#autores)
 
 ## Visualização do projeto
-FALTA O LINK 
+[Acessar o site](https://gialcard7-gif.github.io/Sorriso-em-Dados/)
