@@ -33,7 +33,20 @@ https://github.com/gialcard7-gif/Sorriso-em-Dados
 | **Beatriz** | **Diane** | **Giovanna** | **Gleyci** | **Isabella** |
 
 ## Imagens do projeto
-TODO: inserir prints das páginas, por exemplo `![Painel](imagens/print-painel.png)`.
+
+### Página inicial
+![Página inicial do Sorriso em Dados](imagens/print-inicio.png) ![Painel](imagens/print-inicio-continuacao.png)
+
+### Painel
+![Protótipo do painel de captação](imagens/print-painel.png) ![Protótipo do painel de captação](imagens/print-painel-continuacao.png)
+
+### Como funciona
+![Página Como funciona](imagens/print-como-funciona.png) ![Página Como funciona](imagens/print-como-funciona-continuacao.png)
+
+### Sobre
+![Página Sobre o projeto](imagens/print-sobre.png) ![Página Sobre o projeto](imagens/print-sobre-continuacao)
 
 ## Contato
-TODO: e-mail ou canal do grupo.
+Dúvidas, sugestões ou suporte sobre o projeto:
+- Issues do repositório: https://github.com/gialcard7-gif/Sorriso-em-Dados/issues
+- Perfis de cada autora: veja a tabela de [Autores](#autores)
