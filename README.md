@@ -46,7 +46,19 @@ https://github.com/gialcard7-gif/Sorriso-em-Dados
 ### Sobre
 ![Página Sobre o projeto](imagens/print-sobre.png) ![Página Sobre o projeto](imagens/print-sobre-continuacao)
 
+### Integrantes
+![Página de integantes do projeto](imagens/print-integrantes.png) ![Página de integantes do projeto](imagens/print-integrantes-continuacao.png)
+
+### FAQ
+![Página de FAQ](imagens/print-faq.png)
+
+### Contato 
+![Página de contato com o grupo](imagens/print-contato.png)
+
 ## Contato
 Dúvidas, sugestões ou suporte sobre o projeto:
 - Issues do repositório: https://github.com/gialcard7-gif/Sorriso-em-Dados/issues
 - Perfis de cada autora: veja a tabela de [Autores](#autores)
+
+## Visualização do projeto
+FALTA O LINK 
