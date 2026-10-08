@@ -15,14 +15,22 @@ README.md
 ```
 
 ## Link do repositório
-TODO: https://github.com/gialcard7-gif/Sorriso-em-Dados
+https://github.com/gialcard7-gif/Sorriso-em-Dados
 
 ## Autores
 | Nome completo | RM | Turma | GitHub | LinkedIn |
 |---|---|---|---|---|
-| TODO | 000000 | 1TDS | link | link |
+| Beatriz Fernandes Silva | RM576409 | 1TDSPS | [@olabeatrizfsilva](https://github.com/olabeatrizfsilva) | [LinkedIn](https://www.linkedin.com/in/beatrizsilva-salesb2b) |
+| Diane Vinha Arantes | RM575041 | 1TDSPS | [@dianevinhaarantes](https://github.com/dianevinhaarantes) | [LinkedIn] (https://www.linkedin.com/in/diane-arantes)
+| Giovanna Alcard Souza Silva | RM576375 | 1TDSPS | [@gialcard7](https://github.com/gialcard7-gif) | [LinkedIn]     (https://www.linkedin.com/in/giovanna-alcard)
+| Gleycianne Arruda de Freitas Silva | RM575040 | 1TDSPS | [@gleycifreitas](https://github.com/gleycifreitas) | [LinkedIn] (https://www.linkedin.com/in/gleyci)
+| Isabella Fernandes dos Passos Prado | RM574951 | 1TDSPS | [@isabellaprado25](https://github.com/isabellaprado25) | [LinkedIn] (https://www.linkedin.com/in/isabellaprado20)
 
-Inclua a foto de cada integrante (pasta `imagens/`).
+## Integrantes
+| | | | | |
+|:---:|:---:|:---:|:---:|:---:|
+| <img src="imagens/beatriz.jpg" width="120"> | <img src="imagens/diane.png" width="120"> | <img src="imagens/giovanna.jpg" width="120"> | <img src="imagens/gleyci.jpg" width="120"> | <img src="imagens/isabella.jpg" width="120"> |
+| **Beatriz** | **Diane** | **Giovanna** | **Gleyci** | **Isabella** |
 
 ## Imagens do projeto
 TODO: inserir prints das páginas, por exemplo `![Painel](imagens/print-painel.png)`.
