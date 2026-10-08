@@ -47,7 +47,7 @@ https://github.com/gialcard7-gif/Sorriso-em-Dados
 ![Página Sobre o projeto](imagens/print-sobre.png) ![Página Sobre o projeto](imagens/print-sobre-continuacao)
 
 ### Integrantes
-![Página de integantes do projeto](imagens/print-integrantes.png) ![Página de integantes do projeto](imagens/print-integrantes-continuacao.png)
+![Página de integantes do projeto](imagens/print-integrantes.png) ![Página Sobre o projeto](imagens/print-sobre-continuacao.png)
 
 ### FAQ
 ![Página de FAQ](imagens/print-faq.png)
