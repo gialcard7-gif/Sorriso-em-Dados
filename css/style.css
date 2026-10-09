@@ -85,9 +85,9 @@ a{color:var(--primaria)}
 .faq summary{font-weight:700;cursor:pointer}
 
 /* ===== 8. Formulário ===== */
-.formulario__aceite{display:flex;align-items:flex-start;gap:10px}
-.formulario__aceite input{flex:none;width:20px;height:20px;margin:2px 0 0}
-.formulario__aceite label{margin:0}
+.formulario{display:grid;gap:16px}
+.formulario label{display:block;margin-bottom:4px;font-weight:600}
+.formulario input:not([type="checkbox"]),.formulario select,.formulario textarea{width:100%;padding:10px 12px;border:1px solid var(--suave);border-radius:6px;font:inherit}
 
 /* ===== 9. Rodapé ===== */
 .rodape{padding:32px 0;background:var(--escura);color:#fff}
