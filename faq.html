@@ -7,13 +7,18 @@
         <title>FAQ - Sorriso em Dados</title>
         <link rel="icon" href="imagens/logo.svg" type="image/svg+xml">
         <link rel="stylesheet" href="css/style.css">
+        <script src="js/script.js" defer></script>
     </head>
     <body>
         <!-- Cabeçalho padrão (igual em todas as páginas) -->
         <header class="cabecalho">
             <div class="container cabecalho__interno">
                 <a class="marca" href="index.html"><img src="imagens/logo.svg" alt="" width="40" height="40">Sorriso em Dados</a>
-                <nav aria-label="Menu principal">
+                <button class="menu__botao" type="button"
+                    aria-expanded="false"
+                    aria-controls="menu-principal"
+                    aria-label="Abrir menu">☰</button>
+                <nav id="menu-principal" aria-label="Menu principal">
                     <ul class="menu__lista">
                         <li><a class="menu__link" href="index.html">Início</a></li>
                         <li><a class="menu__link" href="dashboard.html">Painel</a></li>
