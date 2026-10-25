@@ -89,6 +89,11 @@ https://github.com/gialcard7-gif/Sorriso-em-Dados
 |:---:|:---:|
 | <img src="imagens/print-contato.png" width="420" alt="Página de contato no desktop"> | <img src="imagens/print-contato-mobile.png" width="130" alt="Página de contato no celular"> |
 
+### Interações (Sprint 02)
+| Menu hambúrguer | Validação do formulário | Filtro da tabela |
+|:---:|:---:|:---:|
+| <img src="imagens/print-menu-aberto-mobile.png" width="200" alt="Menu hambúrguer aberto no celular"> | <img src="imagens/print-contato-erro-mobile.png" width="200" alt="Formulário de contato com erros de validação"> | <img src="imagens/print-painel-filtro-mobile.png" width="200" alt="Tabela do painel com filtro aplicado"> |
+
 ## Contato
 Dúvidas, sugestões ou suporte sobre o projeto:
 - Issues do repositório: https://github.com/gialcard7-gif/Sorriso-em-Dados/issues
