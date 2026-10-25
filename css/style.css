@@ -108,20 +108,9 @@ a{color:var(--primaria)}
 .rodape__lista{display:flex;flex-wrap:wrap;gap:16px;margin:12px 0;padding:0;list-style:none}
 
 /* ===== 10. Utilitários de porcentagem (barras e funil) ===== */
-.pct-5{--pct:5%}
-.pct-10{--pct:10%}
-.pct-15{--pct:15%}
 .pct-20{--pct:20%}
-.pct-25{--pct:25%}
-.pct-30{--pct:30%}
 .pct-35{--pct:35%}
-.pct-40{--pct:40%}
-.pct-45{--pct:45%}
-.pct-50{--pct:50%}
-.pct-55{--pct:55%}
 .pct-60{--pct:60%}
-.pct-65{--pct:65%}
-.pct-70{--pct:70%}
 .pct-75{--pct:75%}
 .pct-80{--pct:80%}
 .pct-85{--pct:85%}
