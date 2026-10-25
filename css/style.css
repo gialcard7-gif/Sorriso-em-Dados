@@ -93,6 +93,10 @@ a{color:var(--primaria)}
 .formulario{display:grid;gap:16px}
 .formulario label{display:block;margin-bottom:4px;font-weight:600}
 .formulario input:not([type="checkbox"]),.formulario select,.formulario textarea{width:100%;padding:10px 12px;border:1px solid var(--suave);border-radius:6px;font:inherit}
+/* Validação: mensagens e destaque de erro */
+.formulario__erro{display:block;min-height:1.2em;margin-top:4px;font-size:.9rem;color:#B3261E}
+.formulario input.campo--erro,.formulario textarea.campo--erro{border-color:#B3261E;border-width:2px}
+.formulario__sucesso{margin:0;font-weight:600;color:#1E6B34}
 
 /* ===== 9. Rodapé ===== */
 .rodape{padding:32px 0;background:var(--escura);color:#fff}
