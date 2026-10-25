@@ -30,11 +30,16 @@ a{color:var(--primaria)}
 
 /* ===== 4. Cabeçalho e menu ===== */
 .cabecalho{background:var(--escura);color:#fff}
-.cabecalho__interno{display:flex;align-items:center;justify-content:space-between;padding-top:14px;padding-bottom:14px}
+.cabecalho__interno{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;padding-top:14px;padding-bottom:14px}
 .marca{display:flex;align-items:center;gap:10px;color:#fff;text-decoration:none;font:700 1.25rem var(--titulo)}
-.menu__lista{display:flex;gap:4px;margin:0;padding:0;list-style:none}
+.menu__lista{display:flex;flex-direction:column;gap:4px;margin:0;padding:0;list-style:none}
 .menu__link{display:block;padding:8px 10px;color:#fff;text-decoration:none;border-bottom:3px solid transparent}
 .menu__link:hover,.menu__link[aria-current="page"]{border-color:var(--sol)}
+
+/* Botão hambúrguer (visível só em mobile e tablets) */
+.menu__botao{display:block;background:none;border:2px solid #fff;border-radius:8px;color:#fff;font-size:1.5rem;line-height:1;padding:6px 12px;cursor:pointer}
+#menu-principal{display:none;width:100%}
+#menu-principal.aberto{display:block}
 
 /* ===== 5. Botões ===== */
 .btn{display:inline-block;padding:12px 24px;border:2px solid var(--primaria);border-radius:8px;font:700 1rem var(--corpo);text-decoration:none;cursor:pointer}
@@ -119,6 +124,9 @@ a{color:var(--primaria)}
 /* ===== 11. Media queries ===== */
 /* Desktop (laptops e desktops, 992px ou mais) */
 @media (min-width:992px){
+.menu__botao{display:none}
+#menu-principal{display:block;width:auto}
+.menu__lista{flex-direction:row}   
 .container{max-width:1140px}
 .grade--2{grid-template-columns:repeat(2,1fr)}
 .grade--3{grid-template-columns:repeat(3,1fr)}
