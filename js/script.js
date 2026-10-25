@@ -86,5 +86,34 @@ function configurarFormulario() {
   });
 }
 
+// ----- Filtro da tabela do painel -----
+
+function filtrarTabela(situacao) {
+  const linhas = document.querySelectorAll('.tabela tbody tr');
+  linhas.forEach(function (linha) {
+    const selo = linha.querySelector('.selo').textContent.trim();
+    linha.hidden = !(situacao === 'todas' || selo === situacao);
+  });
+}
+
+function configurarFiltros() {
+  const botoes = document.querySelectorAll('.filtro');
+  if (botoes.length === 0) return;   // nas outras páginas não há filtros
+
+  botoes.forEach(function (botao) {
+    botao.addEventListener('click', function () {
+      filtrarTabela(botao.dataset.filtro);
+
+      botoes.forEach(function (outro) {
+        outro.classList.remove('filtro--ativo');
+        outro.setAttribute('aria-pressed', 'false');
+      });
+      botao.classList.add('filtro--ativo');
+      botao.setAttribute('aria-pressed', 'true');
+    });
+  });
+}
+
 configurarMenu();
 configurarFormulario();
+configurarFiltros();
