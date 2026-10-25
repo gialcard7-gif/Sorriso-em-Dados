@@ -55,25 +55,39 @@ https://github.com/gialcard7-gif/Sorriso-em-Dados
 ## Imagens do projeto
 
 ### Página inicial
-![Página inicial do Sorriso em Dados](imagens/print-inicio.png) ![Página inicial do Sorriso em Dados](imagens/print-inicio-mobile.png) ![Página inicial do Sorriso em Dados](imagens/print-inicio-tablet.png)
+| Desktop | Tablet | Mobile |
+|:---:|:---:|:---:|
+| <img src="imagens/print-inicio.png" width="420" alt="Página inicial no desktop"> | <img src="imagens/print-inicio-tablet.png" width="220" alt="Página inicial no tablet"> | <img src="imagens/print-inicio-mobile.png" width="130" alt="Página inicial no celular"> |
 
 ### Painel
-![Protótipo do painel de captação](imagens/print-painel.png) ![Protótipo do painel de captação](imagens/print-painel-mobile.png) ![Protótipo do painel de captação](imagens/print-painel-tablet.png)
+| Desktop | Tablet | Mobile |
+|:---:|:---:|:---:|
+| <img src="imagens/print-painel.png" width="420" alt="Painel de captação no desktop"> | <img src="imagens/print-painel-tablet.png" width="220" alt="Painel de captação no tablet"> | <img src="imagens/print-painel-mobile.png" width="130" alt="Painel de captação no celular"> |
 
 ### Como funciona
-![Página Como funciona](imagens/print-como-funciona.png) ![Página Como funciona](imagens/print-como-funciona-mobile.png)
+| Desktop | Mobile |
+|:---:|:---:|
+| <img src="imagens/print-como-funciona.png" width="420" alt="Página Como funciona no desktop"> | <img src="imagens/print-como-funciona-mobile.png" width="130" alt="Página Como funciona no celular"> |
 
 ### Sobre
-![Página Sobre o projeto](imagens/print-sobre.png) ![Página Sobre o projeto](imagens/print-sobre-mobile.png)
+| Desktop | Mobile |
+|:---:|:---:|
+| <img src="imagens/print-sobre.png" width="420" alt="Página Sobre no desktop"> | <img src="imagens/print-sobre-mobile.png" width="130" alt="Página Sobre no celular"> |
 
 ### Integrantes
-![Página de integantes do projeto](imagens/print-integrantes.png) ![Página de integantes do projeto](imagens/print-integrantes-mobile.png) ![Página de integantes do projeto](imagens/print-integrantes-tablet.png)
+| Desktop | Tablet | Mobile |
+|:---:|:---:|:---:|
+| <img src="imagens/print-integrantes.png" width="420" alt="Página de integrantes no desktop"> | <img src="imagens/print-integrantes-tablet.png" width="220" alt="Página de integrantes no tablet"> | <img src="imagens/print-integrantes-mobile.png" width="130" alt="Página de integrantes no celular"> |
 
 ### FAQ
-![Página de FAQ](imagens/print-faq.png) ![Página de FAQ](imagens/print-faq-mobile.png)
+| Desktop | Mobile |
+|:---:|:---:|
+| <img src="imagens/print-faq.png" width="420" alt="Página de FAQ no desktop"> | <img src="imagens/print-faq-mobile.png" width="130" alt="Página de FAQ no celular"> |
 
-### Contato 
-![Página de contato com o grupo](imagens/print-contato.png) ![Página de contato com o grupo](imagens/print-contato-mobile.png)
+### Contato
+| Desktop | Mobile |
+|:---:|:---:|
+| <img src="imagens/print-contato.png" width="420" alt="Página de contato no desktop"> | <img src="imagens/print-contato-mobile.png" width="130" alt="Página de contato no celular"> |
 
 ## Contato
 Dúvidas, sugestões ou suporte sobre o projeto:
