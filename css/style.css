@@ -13,7 +13,7 @@
 body{margin:0;font:1rem/1.6 var(--corpo);color:var(--texto);background:var(--fundo)}
 img{max-width:100%}
 h1,h2,h3{font-family:var(--titulo);line-height:1.2;margin:0 0 .6em;color:var(--escura)}
-h1{font-size:2.4rem}
+h1{font-size:2rem}
 h2{font-size:1.7rem}
 h3{font-size:1.15rem}
 a{color:var(--primaria)}
@@ -122,6 +122,13 @@ a{color:var(--primaria)}
 .pct-100{--pct:100%}
 
 /* ===== 11. Media queries ===== */
+/* Tablet (768px ou mais) */
+@media (min-width:768px){
+h1{font-size:2.4rem}
+.grade--2,.grade--3,.grade--4{grid-template-columns:repeat(2,1fr)}
+.fluxo{grid-template-columns:repeat(2,1fr)}
+.grade--equipe{grid-template-columns:repeat(2,1fr)}
+}
 /* Desktop (laptops e desktops, 992px ou mais) */
 @media (min-width:992px){
 .menu__botao{display:none}
