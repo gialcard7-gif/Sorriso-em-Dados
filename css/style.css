@@ -122,6 +122,19 @@ a{color:var(--primaria)}
 .pct-100{--pct:100%}
 
 /* ===== 11. Media queries ===== */
+/* Mobile (até 480px) */
+@media (max-width:480px){
+.container{padding:0 16px}
+.secao{padding:40px 0}
+.hero{padding:40px 0}
+.hero__acoes{flex-direction:column}
+.hero__acoes .btn{text-align:center}
+.funil__linha{grid-template-columns:90px 1fr 48px}
+.barras{gap:6px}
+.rotulos{gap:6px;font-size:.75rem}
+.tabela{font-size:.85rem}
+.tabela th,.tabela td{padding:8px}
+}
 /* Tablet (768px ou mais) */
 @media (min-width:768px){
 h1{font-size:2.4rem}
