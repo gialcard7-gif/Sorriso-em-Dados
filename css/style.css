@@ -81,6 +81,10 @@ a{color:var(--primaria)}
 .tabela th,.tabela td{padding:10px 12px;text-align:left;border-bottom:1px solid var(--borda)}
 .selo{padding:2px 10px;border-radius:99px;background:var(--menta);font-size:.85rem}
 .selo--pendente{background:#FCEBC2}
+/* Filtros da tabela */
+.filtros{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px}
+.filtro{padding:8px 16px;border:2px solid var(--primaria);border-radius:99px;background:var(--branco);color:var(--primaria);font:600 .95rem var(--corpo);cursor:pointer}
+.filtro--ativo{background:var(--primaria);color:#fff}
 /* Integrantes */
 .integrante{text-align:center}
 .integrante__foto{width:120px;height:120px;border-radius:50%;background:var(--menta)}
